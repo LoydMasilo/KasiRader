@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>KR MONITORING</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top " style="background-color:green">
+      <div class="container">
+        <div class="container text-center">
+                      <h2 style = "color:#ffffff"><b>KR MONITORING SYSTEM</b></h2>
+        </div>
+
+     </div>
+</nav>
+
+
+<div class="container text-center">
+
+<div class="divider-new pt-1">
+     <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Clean and Fresh Air Matters To You</h2>
+</div>
+ 
+
+    <div class="row">
+  <div class="col-sm-6">
+    
+    <h3>Weather conditions are recorded</h3> 
+
+    <p>Temperature and humidity play a role in the gas concentrations that sensors detect.
+    High humidity and temperature have effects on the accuracy </p>  
+
+  
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/180283"></iframe>
+
+
+
+    <a class="btn btn-default btn-xl sr-button" href="https://kr-monitoring.eu-gb.mybluemix.net/ui/#/0">View More</a>
+  </div>
+  <div class="col-sm-6">
+
+    <h3>Sensor data recorded is stored in database</h3> 
+
+    <p>Data stored in database can be retrieved for future analysis.
+    You can also be able to see the time that data was recorded</p>  
+
+   
+     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/185749"></iframe>
+
+    <a class="btn btn-default btn-xl sr-button" href="store/index.php">View Table</a>
+
+  </div>
+</div>  
+</div>
+
+<div class="container">
+       <div class="divider-new pt-0">
+              <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Air Pollution Data</h2>
+        </div>
+</div>
+      
+<div class="row">
+   <div class="col-sm-4">
+          <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349208/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Natural Gas&type=line&update=15"></iframe>
+
+    </div>
+    <div class="col-sm-4">
+          <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349208/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Carbon&type=line&update=15"></iframe>
+    </div>
+    <div class="col-sm-4">
+          <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/185973"></iframe>
+
+
+    </div>
+</div> 
+
+<div class="container">
+  <h1>Health Effects and Other Information</h1>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Level of CO</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="success">
+        <td>0 PPM</td>
+        <td>Normal, fresh air</td>
+       
+      </tr>
+      <tr>
+        <td>50 PPM</td>
+        <td>Maximum permissible exposure in workplace</td>
+      </tr>
+      <tr>
+        <td>100 PPM</td>
+        <td>Slight headache after 1-2 hours</td>
+
+      </tr>
+      <tr>
+        <td>200 PPM</td>
+        <td>Dizziness, nasusea, figitue, headache after 2-3 hours of exposure</td>
+      </tr>
+      <tr>
+        <td>400 PPM</td>
+        <td>Headache, nausea after 1-2 hours of exposure. life threatening in 3 hours</td>
+        
+      </tr>
+      <tr>
+        <td>800 PPM</td>
+        <td>Headache,  nausea and dizziness after 45 minutes, collapse and unconsciousness after 1 hour of exposure</td>
+       
+      </tr>
+      <tr>
+        <td>1000 PPM</td>
+        <td>Loss of unconsciousness after 1 hour of exposure</td>
+      </tr>
+      <tr>
+        <td>1600 PPM</td>
+        <td>Headache,  nausea and dizziness after 20 minutes of exposure. Death within 1-2 hours</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+      
+<div class="container">
+       <div class="divider-new pt-0">
+              <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Weather Data</h2>
+        </div>
+</div>  
+
+<div class="row">
+          <div class="col-sm-4">
+          <iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349208/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line&update=15"></iframe>
+          </div>
+
+          <div class="col-sm-4">
+          <iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349208/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/185970"></iframe>
+
+          </div>
+
+</div> 
+
+<div class="row">
+  <div class="col-sm-4">
+    
+  </div>
+  <div class="col-sm-4">
+    
+  </div>
+  <div class="col-sm-4">
+    
+  </div>
+</div>
+
+<div class="container text-center">
+    <a class="btn btn-default btn-xl sr-button" href="logout.php">Logout</a>
+               
+</div>       
+
+</body>
+</html>

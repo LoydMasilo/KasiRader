@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+   
+	
+  <head>
+  	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>KR MONITORING</title>
+
+    <!-- Font Awesome -->
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+	
+   <link href="css/mdb.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  </head>
+  <body>
+    
+    <div class="container text-center">
+      <h1> KREM MONITORING SYSTEM</h1> 
+    </div>
+
+<div class="container text-center">
+<h1> KREM MONITORING SYSTEM</h1>
+
+
+        <div class="row">
+		
+		<h2>Metrological Data</h2>
+		  <div class="col-sm-6">
+		  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349161/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+		  </div>
+		  <div class="col-sm-6">
+		  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349161/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
+
+		  </div>
+        </div>
+
+		<div class="row">
+		
+		
+				<div class="col-sm-6">
+					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/180283"></iframe>
+				</div>
+				<div class="col-sm-6">
+					<h3>Weather conditions are recorded and analysed</h3>
+					<ul class="list-inline">
+			          <li>Temperature</li>
+					  <li>Ralative Humidity</li>
+					  <li>Wind Speed</li>
+	                  <li>Wind Direction</li>
+					</ul>
+                   <p>Temperature and humidity play a role in the gas concentrations that sensors detect.
+				   High humidity and temperature have effects on the accuracy of readings</p>
+				   
+					<a class="btn btn-default btn-xl sr-button" href="https://kr-monitoring.eu-gb.mybluemix.net/ui/#/0">View More</a>
+				</div>
+				
+			</div>	
+ <div class="row">
+		
+		<h2>Air Pollution Data</h2>
+		  <div class="col-sm-6">
+		  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349161/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Natural+Gas&type=line"></iframe>
+
+		  </div>
+		  <div class="col-sm-6">
+		  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/349161/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Carbon+Monoxide&type=line"></iframe>
+
+		  </div>
+</div>	
+
+
+ </div>
+ 
+<div class="container text-center">
+<h1> Historical Data</h1>
+	    <div class="row">
+  <div class="col-sm-6">
+  <div data-tockify-component="mini" data-tockify-calendar="monitor"></div>
+<script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+  </div>
+  
+  <div class="col-sm-6"> <h2>Location</h2></div>
+</div>
+ </div>
+	 
+</body>
+</html>
